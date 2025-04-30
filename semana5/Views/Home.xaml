@@ -25,6 +25,16 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+            <Button x:Name="btnInsertar"
+                    Text="Insertar dato"
+                    Clicked="btnInsertar_Clicked"
+                    Grid.Row="0"
+                    Grid.Column="0"/>
+            <Label x:Name="statusMessage"
+                   FontSize="18"
+                   TextColor="red"
+                   Grid.Row="1"
+                   Grid.Column="0"/>
         </Grid>
     </VerticalStackLayout>
 </ContentPage>
