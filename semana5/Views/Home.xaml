@@ -12,5 +12,19 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             FontSize="20"/>
+        <Entry x:Name="txtNombre"
+               Placeholder="Ingrese el nombre"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
